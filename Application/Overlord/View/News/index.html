@@ -1,0 +1,72 @@
+<extend name="Public/base" />
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="cf">
+        <form class="fl" method="post"> 分类
+            <select id="category" name="type">
+                <volist name="type_list" id="vo">
+                  <option value="{$vo.id}" <eq name="vo.id" value="$type">selected</eq>>{$vo.title_show}</option>
+                </volist>
+            </select>
+            <a class="btn" href="{:U('add',['type'=>$type])}">添 加</a>
+            <eq name="mult" value="1"><a class="btn" href="{:U('addAll',['type'=>$type])}">批量添加</a></eq>
+            <button class="btn ajax-post" url="{:U('state',['method'=>'resume'])}" target-form="ids">启 用</button>
+            <button class="btn ajax-post" url="{:U('state',['method'=>'forbid'])}" target-form="ids">禁 用</button>
+            <a class="btn" href="{:U('sort',['type'=>$type])}">排 序</a>
+            <button class="btn ajax-post confirm" url="{:U('state', ['method'=>'remove'])}" target-form="ids">删 除</button>
+        </form>
+    </div>
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+        <table class="">
+            <thead>
+                <tr>
+                    <th class="row-selected row-selected"><input class="check-all" type="checkbox"></th>
+                    <th width="80">新闻类型</th>
+                    <th width="120">标题</th>
+                    <th class="text-center" width="160">封面</th>
+                    <th>简介</th>
+                    <!-- <th width="10%">内容</th> -->
+                    <th width="120">创建时间</th>
+                    <!--<th width="5%">排序</th>--> 
+                    <!--<th width="5%">浏览</th>-->
+                    <th class="text-center" width="120">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <notempty name="list">
+                <volist name="list" id="v">
+                    <tr>
+                        <td><input class="ids" type="checkbox" name="id[]" value="{$v.id}"></td>
+                        <td>{$v.type_text}</td>
+                        <td>{$v.title|msubstr=0,26,'utf-8'}</td>
+                        <td class="text-center"><notempty name="v.cover"><img src="{$v.cover}" style="height:60px" alt=""></notempty></td>
+                        <td>{$v.abstruct|msubstr=0,26,'utf-8'}</td>
+                        <!-- <td>{$v.content|htmlspecialchars_decode}</td> -->
+                        <td>{$v.create_time|time_format}</td>
+                        <!--<td>{$v.sort}</td>--> 
+                        <!--<td>{$v.view}</td>-->
+                        <td class="text-center"><eq name="v.status" value="1"> <a href="{:U('state', ['id'=>$v['id'],'method'=>'forbid'])}" class="ajax-get">禁用</a>
+                                <else/>
+                                <a href="{:U('state', ['id'=>$v['id'],'method'=>'resume'])}" class="ajax-get" style="color:red">启用</a> </eq>
+                            | <a href="{:U('edit', ['id'=>$v['id']])}">编辑</a> | <a href="{:U('state', ['id'=>$v['id'],'method'=>'remove'])}" class="confirm ajax-get">删除</a></td>
+                    </tr>
+                </volist>
+                <else/>
+            <td colspan="7" class="text-center">暂时还没有数据哟</td>
+            </notempty>
+            </tbody>
+        </table>
+    </div>
+    <div class="page">{$_page}</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+//导航高亮
+highlight_subnav("{:U('News/index')}");
+
+$("#category").change(function(){
+  $("form").submit();
+});
+</script>
+</block>

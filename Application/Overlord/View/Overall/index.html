@@ -1,0 +1,50 @@
+<extend name="Public/base"/>
+<block name="body">
+    <script type="text/javascript" src="__STATIC__/uploadify/jquery.uploadify.min.js"></script>
+    <form action="__SELF__" method="post" class="form-horizontal">
+        <notempty name="data">
+            <volist name="data" id="vo">
+                <switch name="vo.type">
+                    <case value="1">
+                        <div class="form-item">
+                            <label class="item-label">{$vo.title}</label>
+                            <div class="controls">
+                                <input type="file" id="{$vo.mark}">
+                                <input type="hidden" name="{$vo.mark}" id="{$vo.mark}_val" value="{$vo.content}"/>
+                                <div class="upload-img-box">
+                                    <div class="upload-pre-item"><img src="{$vo.content}"/></div>
+                                </div>
+                                {:hook('QuickUpld', ['id' => $vo['mark'], 'return' => $vo['mark'].'_val', 'type' => 'path'])} </div>
+                        </div>
+                    </case>
+                    <case value="2">
+                        <div class="form-item">
+                            <label class="item-label">{$vo.title}</label>
+                            <div class="controls">
+                                <label class="textarea">
+                                    <textarea name="{$vo.mark}">{$vo.content}</textarea>
+                                </label>
+                            </div>
+                        </div>
+                    </case>
+                    <default />
+                    <div class="form-item">
+                        <label class="item-label">{$vo.title}</label>
+                        <div class="controls">
+                            <input type="text" class="text input-large" name="{$vo.mark}" value="{$vo.content}">
+                        </div>
+                    </div>
+                </switch>
+            </volist>
+        </notempty>
+        <div class="form-item cf">
+            <button class="btn submit-btn ajax-post" type="submit" target-form="form-horizontal">确 定</button>
+        </div>
+    </form>
+</block>
+<block name="script">
+<script type="data/javascript">
+//导航高亮
+highlight_subnav('{:U("Overall/index")}');
+</script>
+</block>

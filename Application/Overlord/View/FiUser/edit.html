@@ -1,0 +1,83 @@
+<extend name="Public/base"/>
+
+<block name="style">
+
+</block>
+
+<block name="body">
+  <div class="main-title">
+    <h2>{$meta_title}</h2>
+  </div>
+  
+  <form action="__SELF__" method="post" class="form-horizontal">
+    <input type="hidden" name="id" value="{$data.id}">
+		<div class="form-item">
+		      <label class="item-label">username</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="username" value="{$data.username}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">password</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="password" value="{$data.password}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">email</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="email" value="{$data.email}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">mobile</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="mobile" value="{$data.mobile}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">reg_time</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="reg_time" value="{$data.reg_time}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">reg_ip</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="reg_ip" value="{$data.reg_ip}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">last_login_time</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="last_login_time" value="{$data.last_login_time}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">last_login_ip</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="last_login_ip" value="{$data.last_login_ip}" >
+			</div>
+		</div>
+		<div class="form-item">
+		      <label class="item-label">update_time</label>
+		      <div class="controls">
+				<input type="text" class="text input-large" name="update_time" value="{$data.update_time}" >
+			</div>
+		</div>
+    <div class="form-item">
+      <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+      <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+    </div>
+  </form>
+</block>
+
+<block name="script">
+
+<script type="text/javascript">
+//导航高亮
+highlight_subnav('{:U("FiUser/index")}');
+
+
+</script>
+</block>

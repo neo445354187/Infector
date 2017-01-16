@@ -1,0 +1,47 @@
+<extend name="Public/base" />
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="cf">
+        <div class="fl">
+            <a class="btn" href="{:U('add',['pid'=>I('pid')])}">添 加</a> 
+            <a class="btn" href="{:U('sort',['cls'=>I('pid')])}">排 序</a>
+            <button class="btn ajax-post confirm" url="{:U('state', ['method'=>'remove'])}" target-form="ids">删 除</button>
+        </div>
+    </div>
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+        <table class="">
+            <thead>
+                <tr>
+                    <th class="row-selected row-selected"><input class="check-all" type="checkbox"></th>
+                    <th>标题</th>
+                    <th class="text-center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <notempty name="list">
+                
+                <volist name="list" id="v">
+                    <tr>
+                        <td><input class="ids" type="checkbox" name="id[]" value="{$v.id}"></td>
+                        <td><a href="{:U('index', ['pid'=>$v['id']] )}">{$v.title_show}</a></td>
+                        <td class="text-center"><eq name="v.status" value="1"> <a href="{:U('state', ['id'=>$v['id'],'method'=>'forbid'])}" class="ajax-get">禁用</a>
+                                <else/>
+                                <a href="{:U('state', ['id'=>$v['id'],'method'=>'resume'])}" class="ajax-get">启用</a> </eq>
+                            | <a href="{:U('edit', ['id'=>$v['id']])}">编辑</a> | <a href="{:U('state', ['id'=>$v['id'],'method'=>'remove'])}" class="confirm ajax-get">删除</a></td>
+                    </tr>
+                </volist>
+                <else/>
+            <td colspan="3" class="text-center">暂时还没有数据哟</td>
+                    </notempty>
+                    </tbody>
+        </table>
+    </div>
+    <div class="page">{$_page}</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+//导航高亮
+highlight_subnav("{:U('NewsType/index')}");
+</script>
+</block>

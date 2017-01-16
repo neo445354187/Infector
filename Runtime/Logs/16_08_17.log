@@ -1,0 +1,260 @@
+[ 2016-08-17T10:58:56+08:00 ] 127.0.0.1 /scq/Infector/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.030000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030000s ]
+ERR: 模板不存在:./Application/Home/View/default/Index/index.html
+
+[ 2016-08-17T10:59:02+08:00 ] 127.0.0.1 /scq/Infector/install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:00:30+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:55+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:56+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:57+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:57+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:57+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:57+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:58+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:58+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:01:58+08:00 ] 127.0.0.1 /scq/Infector/Install/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2016-08-17T11:02:45+08:00 ] 127.0.0.1 /scq/Infector/home/install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-17T11:02:45+08:00 ] 127.0.0.1 /scq/Infector/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Home/View/default/Index/index.html
+

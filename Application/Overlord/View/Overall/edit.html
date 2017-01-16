@@ -1,0 +1,46 @@
+<extend name="Public/base"/>
+<block name="style"> </block>
+<block name="body">
+    <div class="main-title">
+        <h2>{$meta_title}</h2>
+    </div>
+    <form action="__SELF__" method="post" class="form-horizontal">
+        <input type="hidden" name="id" value="{$data.id}">
+        <div class="form-item">
+            <label class="item-label">标识符<span class="check-tips">（只能用英文，不能重复）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="mark" value="{$data.mark}" required>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">标题</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="title" value="{$data.title}"  required>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">类型</label>
+            <select name="type">
+                <option value="0" <eq name="data.type" value="0">selected</eq>>普通</option>
+                <option value="1" <eq name="data.type" value="1">selected</eq>>图片</option>
+                <option value="2" <eq name="data.type" value="2">selected</eq>>多行文本</option>
+            </select>
+        </div>
+        <div class="form-item">
+            <label class="item-label">排序<span class="check-tips">（用于页面显示的顺序）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-small" name="sort" value="{$data.sort|default=0}">
+            </div>
+        </div>
+        <div class="form-item">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+<block name="script"> 
+<script type="text/javascript">
+//导航高亮
+highlight_subnav('{:U('Overall/create')}');
+</script> 
+</block>

@@ -1,0 +1,17 @@
+<script type="text/javascript">
+$("#{$addons_data.id}").upload({
+    url:"{:U('File/uploadPicture',array('session_id'=>session_id()))}",
+    callback:function(json){
+        if(1 > json.status){
+            updateAlert(json.info);
+            setTimeout(function(){
+                $('#top-alert').find('button').click();
+            }, 1500);
+            return false;
+        }
+        var src = json.url || json.path;
+        $("#{$addons_data.return}").val(json.{$addons_data.type});
+        $("#{$addons_data.return}_preview").attr("src", src);
+    }
+});
+</script>

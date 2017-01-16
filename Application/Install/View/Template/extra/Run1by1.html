@@ -1,0 +1,119 @@
+<extend name="Public/base"/>
+<block name="body">
+<style>
+.form-item {
+	float:left;
+	width:33%;
+	height:615px
+}
+</style>
+<form action="__SELF__" method="post" enctype="multipart/form-data" class="form-horizontal">
+  <div class="form-item">
+    <label class="item-label">数据列表</label>
+    <div class="controls">
+      <label class="textarea input-large fl">
+        <textarea style="height:560px" id="mailList"></textarea>
+      </label>
+    </div>
+  </div>
+  <div class="form-item">
+    <label class="item-label">进度</label>
+    <div class="controls">
+      <ul style="margin-left:30px">
+        <li>总数：<span id="total">0</span></li>
+        <li>无效：<span id="badNum">0</span></li>
+        <li>正在执行第：<span id="current">0</span></li>
+        <li>成功：<span id="success">0</span></li>
+        <li>失败：<span id="fail">0</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="form-item">
+    <div class="controls">
+      <label class="item-label">发送失败</label>
+      <label class="textarea input-large fl">
+        <textarea style="height:560px" id="faiList"></textarea>
+      </label>
+    </div>
+  </div>
+  <div class="">
+    <button class="btn btn-return btns" type="button" id="entered">分 析</button>
+    <button class="btn submit-btn confirm btns" type="button" id="submit">执 行</button>
+    <a class="btn btn-return btns" onClick="history.go(-1);">返 回</a> </div>
+</form>
+</block>
+<block name="script"> 
+  <script>
+$(function() {
+    var btn, list = [], valid = [], regx = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/, index = 0, success = 0, error = 0, fialed = [];
+    function unique(arr) {
+        var tmp = [];
+        for (var i in arr) {
+            if (tmp.indexOf(arr[i]) == -1) {
+                tmp.push(arr[i]);
+            }
+        }
+        return tmp;
+    }
+    function infect() {
+        if (1 > valid.length) {
+            return btn.removeAttr("disabled"), alert("同化完成");
+        }
+        var current = valid.pop();
+        index++;
+        $("#current").text(index);
+        return $.ajax({
+            type:"POST",
+            url:'',
+            data:{
+                id:current
+            },
+            dataType:"JSON",
+            success:function(json) {
+                if (json.status) {
+                    success++;
+                    $("#success").text(success);
+                } else {
+                    error++;
+                    fialed.push(current);
+                    $("#fail").text(error);
+                    $("#faiList").val(fialed.join("\n"));
+                }
+                if (0 < valid.length) {
+                    return setTimeout(infect, 600);
+                }
+                return btn.removeAttr("disabled"), alert("同化完成");
+            }
+        });
+    }
+    $("#entered").click(function() {
+        list = $("#mailList").val().split("\n");
+        if (1 > list.length) {
+            return alert("数据不能为空");
+        }
+        list = unique(list);
+        valid = [];
+        $("#total").text(list.length);
+        var bad = 0;
+        for (var i = 0, len = list.length; i < len; i++) {
+            if (!regx.test(list[i])) {
+                bad++;
+            } else {
+                valid.push(list[i]);
+            }
+        }
+        $("#badNum").text(bad);
+    });
+    $("#submit").click(function() {
+        btn = $(this);
+        index = success = error = 0;
+        fialed = [];
+        if (1 > valid.length) {
+            return alert("没有可发送的数据");
+        }
+        btn.attr("disabled", "disabled");
+        infect();
+    });
+});
+</script> 
+</block>

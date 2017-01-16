@@ -1,0 +1,3249 @@
+[ 2017-01-16T17:32:23+08:00 ] 127.0.0.1 /infector/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/default/Index/index.html
+
+[ 2017-01-16T17:32:35+08:00 ] 127.0.0.1 /infector/index.php/overlord
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:32:36+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:32:36+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:32:49+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'adam'
+
+[ 2017-01-16T17:32:52+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html&random=0.23535298105814806
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:33:01+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'adam'
+
+[ 2017-01-16T17:33:06+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'adam'
+
+[ 2017-01-16T17:33:16+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'adam'
+
+[ 2017-01-16T17:34:16+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'infector'
+
+[ 2017-01-16T17:34:46+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.024001s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 120 行.
+
+[ 2017-01-16T17:34:46+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html&random=0.2907019924276353
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:35:02+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.004000s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 120 行.
+
+[ 2017-01-16T17:35:02+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html&random=0.018346390983843275
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:35:16+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 120 行.
+
+[ 2017-01-16T17:35:16+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html&random=0.9447050850088672
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:35:21+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 120 行.
+
+[ 2017-01-16T17:35:21+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/verify.html&random=0.6178637220288106
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:37:46+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 119 行.
+
+[ 2017-01-16T17:37:56+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.029002s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 119 行.
+
+[ 2017-01-16T17:38:18+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE adam_ucenter_member [ RunTime:0.006000s ]
+SQL: SELECT * FROM `adam_ucenter_member` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\Infector\Application\Overlord\Model\UcenterMemberModel.class.php 第 120 行.
+SQL: UPDATE `adam_ucenter_member` SET `last_login_time`=:339f3b2e7a1e7a4107187687db572401,`last_login_ip`=:5e6298ca6dc6b114717eee655779e427 WHERE ( `id` = 1 )[ Array
+(
+    [:339f3b2e7a1e7a4107187687db572401] => 1484559498
+    [:5e6298ca6dc6b114717eee655779e427] => 2130706433
+)
+ ] [ RunTime:0.083004s ]
+
+[ 2017-01-16T17:38:18+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.014001s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Index/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:20+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'News/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 7 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_news_type [ RunTime:0.004000s ]
+SQL: SELECT `mult` FROM `adam_news_type` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: model D:\WWW\Infector\Application\Overlord\Controller\NewsController.class.php 第 28 行.
+
+[ 2017-01-16T17:38:24+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:25+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/NewsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004001s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'NewsType/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 8 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 8 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_news_type [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title`,`status` FROM `adam_news_type` WHERE ( `status` > -1 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: _page D:\WWW\Infector\Runtime\Cache\Overlord\50b3b00afccb316416bf2cdbd15919b4.php 第 110 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:26+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Config/group%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.034002s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:27+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:27+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:28+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/NewsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_news_type [ RunTime:0.003001s ]
+SQL: SELECT `id`,`pid`,`title`,`status` FROM `adam_news_type` WHERE ( `status` > -1 ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: _page D:\WWW\Infector\Runtime\Cache\Overlord\50b3b00afccb316416bf2cdbd15919b4.php 第 110 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:32+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003001s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:33+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:34+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003001s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:38:57+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_news_type [ RunTime:0.004000s ]
+SQL: SELECT `mult` FROM `adam_news_type` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: model D:\WWW\Infector\Application\Overlord\Controller\NewsController.class.php 第 28 行.
+
+[ 2017-01-16T17:38:59+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:39:03+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `adam_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `adam_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:39:08+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/del/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: DELETE FROM `adam_menu` WHERE ( `id` IN ('7') ) [ RunTime:0.025001s ]
+
+[ 2017-01-16T17:39:09+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001001s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `adam_menu`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `adam_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:40:44+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/NewsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:NewsType
+
+[ 2017-01-16T17:40:47+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`title` FROM `adam_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `adam_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:40:56+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004001s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:40:58+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/create.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`sort` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\Infector\Runtime\Cache\Overlord\34f700673e924a8673cedb07d38e62e9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:41:00+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Config/group%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003001s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:41:02+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `adam_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:41:04+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title` FROM `adam_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `adam_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:41:08+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/del/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: DELETE FROM `adam_menu` WHERE ( `id` IN ('8') ) [ RunTime:0.034002s ]
+
+[ 2017-01-16T17:41:10+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001001s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `adam_menu`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `adam_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:42:31+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Config/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.002001s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `adam_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:42:33+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `adam_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:42:34+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_config [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `adam_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:42:35+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.005000s ]
+SQL: SELECT * FROM `adam_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `adam_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.005000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `adam_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `adam_menu` WHERE ( `pid` = 9 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `adam_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `adam_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:42:36+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/create.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`sort` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\Infector\Runtime\Cache\Overlord\34f700673e924a8673cedb07d38e62e9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T17:42:38+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.003000s ]
+SQL: SELECT MAX(sort) AS tp_max FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 82 行.
+NOTIC: [8] Undefined index: mark D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 92 行.
+NOTIC: [8] Undefined index: type D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 98 行.
+NOTIC: [8] Undefined index: type D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 99 行.
+NOTIC: [8] Undefined index: type D:\WWW\Infector\Runtime\Cache\Overlord\7edc920ca75e7d4a77c881b45ebf4329.php 第 100 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:42:46+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `mark` = 'ceshi' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `adam_overall` (`id`,`mark`,`title`,`type`,`sort`,`status`) VALUES (:d2c23d1b4feeec456d72cdc94cc44595,:9f6ac095d7da661e7012e2083e32e58e,:92f24a1f999095d1e7e6125d7916d913,:415ce7b551e9decd6aac5fb465bd367b,:6eee077ad5f5a13744aecaf92cb6b1fe,:cf9f9fbbb24544659ae4b59937ecb570)[ Array
+(
+    [:d2c23d1b4feeec456d72cdc94cc44595] => 0
+    [:9f6ac095d7da661e7012e2083e32e58e] => ceshi
+    [:92f24a1f999095d1e7e6125d7916d913] => 1
+    [:415ce7b551e9decd6aac5fb465bd367b] => 0
+    [:6eee077ad5f5a13744aecaf92cb6b1fe] => 1
+    [:cf9f9fbbb24544659ae4b59937ecb570] => 1
+)
+ ] [ RunTime:0.022001s ]
+NOTIC: [2] unlink(./Runtime/Temp/9c831ae0a54d3665f982ceea6b4c9ce0.php): No such file or directory D:\WWW\Infector\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2017-01-16T17:42:48+08:00 ] 127.0.0.1 /infector/index.php?s=/Overlord/Overall/create.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE adam_overall [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`sort` FROM `adam_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\Infector\Runtime\Cache\Overlord\34f700673e924a8673cedb07d38e62e9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:47:19+08:00 ] 127.0.0.1 /infector/index.php?s=install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2017-01-16T17:48:55+08:00 ] 127.0.0.1 /infector/index.php?s=install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2017-01-16T17:48:56+08:00 ] 127.0.0.1 /infector/index.php?s=install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Mysql
+
+[ 2017-01-16T17:51:46+08:00 ] 127.0.0.1 /infector/index.php?s=install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW TABLES [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:16:57+08:00 ] 127.0.0.1 /overlord
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.032002s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Index/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:16:58+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:16:59+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:17:00+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:17:01+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:17:04+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/create.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`sort` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\fivech\Runtime\Cache\Overlord\34f700673e924a8673cedb07d38e62e9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:17:06+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:17:06+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/create.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`sort` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\fivech\Runtime\Cache\Overlord\34f700673e924a8673cedb07d38e62e9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:17:08+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:22:04+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_staff [ RunTime:0.002000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : DESCRIBE fi_staff
+ERR: Think\Model:logout方法不存在！
+
+[ 2017-01-16T19:23:42+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : DESCRIBE fi_staff
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:23:43+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:23:43+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:23:50+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : DESCRIBE fi_staff
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1  
+
+[ 2017-01-16T19:23:50+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html&random=0.9912019371392
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:23:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.005000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : DESCRIBE fi_staff
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'fivech.fi_staff' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1  
+
+[ 2017-01-16T19:23:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html&random=0.4189743845265137
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:24:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\Application\Overlord\Model\StaffModel.class.php 第 120 行.
+SQL: UPDATE `fi_staff` SET `last_login_time`=:339f3b2e7a1e7a4107187687db572401,`last_login_ip`=:5e6298ca6dc6b114717eee655779e427 WHERE ( `id` = 1 )[ Array
+(
+    [:339f3b2e7a1e7a4107187687db572401] => 1484565893
+    [:5e6298ca6dc6b114717eee655779e427] => 2130706433
+)
+ ] [ RunTime:0.020001s ]
+
+[ 2017-01-16T19:24:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Index/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:24:54+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Config/group%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:24:55+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005001s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.006000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 9 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:25:27+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:25:28+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `fi_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:25:29+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:27:30+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `fi_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:27:31+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:27:31+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `fi_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:27:32+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:00+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:00+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T19:52:04+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:44+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:46+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `fi_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:47+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:52:48+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:49+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_config` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `fi_config` WHERE ( `status` = 1 ) ORDER BY sort,id LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:52:52+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:52:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:53+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:57+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\Application\Overlord\Model\StaffModel.class.php 第 118 行.
+SQL: UPDATE `fi_staff` SET `last_login_time`=:339f3b2e7a1e7a4107187687db572401,`last_login_ip`=:5e6298ca6dc6b114717eee655779e427 WHERE ( `id` = 1 )[ Array
+(
+    [:339f3b2e7a1e7a4107187687db572401] => 1484567577
+    [:5e6298ca6dc6b114717eee655779e427] => 2130706433
+)
+ ] [ RunTime:0.035002s ]
+
+[ 2017-01-16T19:52:57+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001001s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Index/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:52:58+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Config/group%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003001s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:52:59+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:53:00+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:53:03+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:04+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:04+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:06+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003001s ]
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'seller' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:06+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html&random=0.02259486659882426
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:13+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003001s ]
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\Application\Overlord\Model\StaffModel.class.php 第 118 行.
+
+[ 2017-01-16T19:53:13+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/verify.html&random=0.8066896388670015
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:15+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\ThinkPHP\Common\functions.php 第 473 行.
+SQL: DESCRIBE fi_staff [ RunTime:0.003000s ]
+SQL: SELECT * FROM `fi_staff` WHERE ( `username` = 'ily' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DATA_AUTH_KEY - assumed 'DATA_AUTH_KEY' D:\WWW\fivech\Application\Overlord\Model\StaffModel.class.php 第 118 行.
+SQL: UPDATE `fi_staff` SET `last_login_time`=:339f3b2e7a1e7a4107187687db572401,`last_login_ip`=:5e6298ca6dc6b114717eee655779e427 WHERE ( `id` = 1 )[ Array
+(
+    [:339f3b2e7a1e7a4107187687db572401] => 1484567595
+    [:5e6298ca6dc6b114717eee655779e427] => 2130706433
+)
+ ] [ RunTime:0.034002s ]
+
+[ 2017-01-16T19:53:15+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Index/index%' ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:53:54+08:00 ] 127.0.0.1 /install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW TABLES [ RunTime:0.000000s ]
+SQL: SHOW FULL COLUMNS FROM fi_addons [ RunTime:0.003001s ]
+SQL: SHOW FULL COLUMNS FROM fi_config [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_hooks [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_menu [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_overall [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_picture [ RunTime:0.003001s ]
+SQL: SHOW FULL COLUMNS FROM fi_staff [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_user [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:54:08+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021001s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : DESCRIBE adam_menu
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_menu` WHERE ( `title` = 'FiUser' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `adam_menu` WHERE ( `title` = 'FiUser' ) LIMIT 1  
+SQL: INSERT INTO `adam_menu` (`title`,`url`) VALUES (:92f24a1f999095d1e7e6125d7916d913,:61d7330b4e95acd575f02a3b2ee3c73a)[ Array
+(
+    [:92f24a1f999095d1e7e6125d7916d913] => FiUser
+    [:61d7330b4e95acd575f02a3b2ee3c73a] => FiUser/index
+)
+ ] [ RunTime:0.001000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : INSERT INTO `adam_menu` (`title`,`url`) VALUES (:92f24a1f999095d1e7e6125d7916d913,:61d7330b4e95acd575f02a3b2ee3c73a)[ Array
+(
+    [:92f24a1f999095d1e7e6125d7916d913] => FiUser
+    [:61d7330b4e95acd575f02a3b2ee3c73a] => FiUser/index
+)
+ ]
+
+[ 2017-01-16T19:54:13+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:54:14+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:54:48+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+SQL: DESCRIBE adam_menu [ RunTime:0.003000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : DESCRIBE adam_menu
+SQL: SELECT COUNT(*) AS tp_count FROM `adam_menu` WHERE ( `title` = 'FiUser' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `adam_menu` WHERE ( `title` = 'FiUser' ) LIMIT 1  
+SQL: INSERT INTO `adam_menu` (`title`,`url`) VALUES (:92f24a1f999095d1e7e6125d7916d913,:61d7330b4e95acd575f02a3b2ee3c73a)[ Array
+(
+    [:92f24a1f999095d1e7e6125d7916d913] => FiUser
+    [:61d7330b4e95acd575f02a3b2ee3c73a] => FiUser/index
+)
+ ] [ RunTime:0.001000s ]
+ERR: 1146:Table 'fivech.adam_menu' doesn't exist
+ [ SQL语句 ] : INSERT INTO `adam_menu` (`title`,`url`) VALUES (:92f24a1f999095d1e7e6125d7916d913,:61d7330b4e95acd575f02a3b2ee3c73a)[ Array
+(
+    [:92f24a1f999095d1e7e6125d7916d913] => FiUser
+    [:61d7330b4e95acd575f02a3b2ee3c73a] => FiUser/index
+)
+ ]
+
+[ 2017-01-16T19:59:36+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+
+[ 2017-01-16T20:00:11+08:00 ] 127.0.0.1 /install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW TABLES [ RunTime:0.000000s ]
+SQL: SHOW FULL COLUMNS FROM fi_addons [ RunTime:0.005000s ]
+SQL: SHOW FULL COLUMNS FROM fi_config [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_hooks [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_menu [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_overall [ RunTime:0.003001s ]
+SQL: SHOW FULL COLUMNS FROM fi_picture [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_staff [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_user [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:00:13+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+
+[ 2017-01-16T20:00:53+08:00 ] 127.0.0.1 /install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW TABLES [ RunTime:0.001000s ]
+SQL: SHOW FULL COLUMNS FROM fi_addons [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_config [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_hooks [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_menu [ RunTime:0.004001s ]
+SQL: SHOW FULL COLUMNS FROM fi_overall [ RunTime:0.003000s ]
+SQL: SHOW FULL COLUMNS FROM fi_picture [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_staff [ RunTime:0.004000s ]
+SQL: SHOW FULL COLUMNS FROM fi_user [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:00:55+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+
+[ 2017-01-16T20:02:43+08:00 ] 127.0.0.1 /install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW TABLES [ RunTime:0.001000s ]
+SQL: SHOW FULL COLUMNS FROM fi_user [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:02:49+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+
+[ 2017-01-16T20:03:07+08:00 ] 127.0.0.1 /install
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW TABLES [ RunTime:0.001000s ]
+SQL: SHOW FULL COLUMNS FROM fi_user [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:03:09+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_menu` WHERE ( `title` = 'User' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `fi_menu` (`title`,`url`) VALUES (:92f24a1f999095d1e7e6125d7916d913,:61d7330b4e95acd575f02a3b2ee3c73a)[ Array
+(
+    [:92f24a1f999095d1e7e6125d7916d913] => User
+    [:61d7330b4e95acd575f02a3b2ee3c73a] => User/index
+)
+ ] [ RunTime:0.028001s ]
+
+[ 2017-01-16T20:03:12+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:03:14+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:03:34+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Config/group%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:03:36+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:03:43+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Overall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Overall/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 9 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '' ) AND ( `pid` = 9 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_overall [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_overall` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mark`,`type`,`title`,`content`,`sort`,`status` FROM `fi_overall` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:03:44+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'User/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005001s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 12 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 12 ) AND ( `hide` = 0 )  [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_user` WHERE ( `status` > -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'sort' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10  
+ERR: 模板不存在:./Application/Overlord/View/User/index.html
+
+[ 2017-01-16T20:04:17+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\fivech\Runtime\Cache\Overlord\7e78ce0d2ea9e84ac00840844a1ad6a5.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:04:19+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_user` WHERE ( `status` > -1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'sort' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10  
+ERR: 模板不存在:./Application/Overlord/View/User/index.html
+
+[ 2017-01-16T20:07:28+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_menu` WHERE ( `title` = 'User' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:08:26+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_menu` WHERE ( `title` = 'User' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:08:35+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_user` WHERE ( `status` > -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'sort' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\fivech\Runtime\Cache\Overlord\b7da71b21fb56d1a1e8de0d7d8197408.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:08:38+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 85 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 89 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 95 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 107 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 125 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 131 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 137 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:09:05+08:00 ] 127.0.0.1 /index.php?s=/Install/Index/infect.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\fivech\Application\Install\Controller\IndexController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_menu` WHERE ( `title` = 'User' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:09:07+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 85 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 89 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 95 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 107 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 125 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 131 行.
+NOTIC: [8] Undefined variable: data D:\WWW\fivech\Runtime\Cache\Overlord\fe3f897c5eff32303c3f3825eb8c19be.php 第 137 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:09:27+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_config [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `fi_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:09:28+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:09:30+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index/pid/12.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 12 ) ORDER BY sort asc,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:09:33+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T20:09:45+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.003000s ]
+SQL: UPDATE `fi_menu` SET `title`=:d5d3db1765287eef77d7927cc956f50a,`sort`=:cadc8c8db42409733582cb3e2298ef87,`url`=:572d4e421e5e6b9bc11d815e8a027112,`pid`=:0db3209e1adc6d67be435a81baf9a66e,`group`=:db0f6f37ebeb6ea09489124345af2a45,`hide`=:a88f05b6c963e145a45b58c47cd42a41,`is_dev`=:0da017c390982f089b76d1ca7e414397,`tip`=:6a2139364f96787c8ce1bbb0070b898c WHERE ( `id` = 12 )[ Array
+(
+    [:d5d3db1765287eef77d7927cc956f50a] => 用户
+    [:cadc8c8db42409733582cb3e2298ef87] => 0
+    [:572d4e421e5e6b9bc11d815e8a027112] => User/index
+    [:0db3209e1adc6d67be435a81baf9a66e] => 0
+    [:db0f6f37ebeb6ea09489124345af2a45] => 
+    [:a88f05b6c963e145a45b58c47cd42a41] => 0
+    [:0da017c390982f089b76d1ca7e414397] => 0
+    [:6a2139364f96787c8ce1bbb0070b898c] => 
+)
+ ] [ RunTime:0.044002s ]
+
+[ 2017-01-16T20:09:47+08:00 ] 127.0.0.1 /index.php?s=/Overlord/Menu/index/pid/12.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'Menu/index%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.005000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `fi_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 1 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `fi_menu`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `fi_menu` WHERE ( `pid` = 12 ) ORDER BY sort asc,id asc  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T20:09:51+08:00 ] 127.0.0.1 /index.php?s=/Overlord/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.006000s ]
+SQL: SELECT * FROM `fi_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `fi_menu` WHERE ( `url` LIKE 'User/index%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_menu [ RunTime:0.006000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `fi_menu` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `group` FROM `fi_menu` WHERE ( `pid` = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`url` FROM `fi_menu` WHERE ( `pid` = 12 ) AND ( `hide` = 0 )  [ RunTime:0.001000s ]
+SQL: DESCRIBE fi_user [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fi_user` WHERE ( `status` > -1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'sort' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `fi_user` WHERE ( `status` > -1 ) ORDER BY sort DESC LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title D:\WWW\fivech\Runtime\Cache\Overlord\b7da71b21fb56d1a1e8de0d7d8197408.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

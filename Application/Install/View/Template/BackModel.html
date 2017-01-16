@@ -1,0 +1,68 @@
+// +----------------------------------------------------------------------
+// | Infector
+// +----------------------------------------------------------------------
+// | {$TIME} 
+// |
+// +----------------------------------------------------------------------
+
+namespace {$MOUDEL}\Model;
+
+use Think\Model;
+
+/**
+ * {$TABLENAME}Model
+ */
+class {$TABLENAME}Model extends Model{
+	<eq name="AUTOENABLE" value="1">/**
+	 * 自动启用
+	 */
+	protected $_auto = [
+	[ 'status', 1, self::MODEL_INSERT ]
+	];</eq>
+
+
+	<notempty name="NOTNULL">/**
+	 * 自动验证规则
+	 */
+	 protected $_validate = [
+	 <volist name="NOTNULL" id="v">
+	 	['{$v.field}', 'require', '{$v.field}不能为空' ],
+	 </volist>
+	 ];</notempty>
+
+
+	/**
+	 * 获取所有数据
+	 */
+	public function pull( $field = false ) {
+		if ( $field ) {
+			return $this->where( ['status' => 1] )->field( $field )->select();
+		}else {
+			return $this->where( ['status' => 1] )->select();
+		}
+	}
+
+	/**
+	 * 获取单个数据
+	 */
+	public function browse( $id, $field = false ) {
+		if ( $field ) {
+			return $this->where( ['{$PK}' => $id] )->field( $field )->find();
+		}else {
+			return $this->where( ['{$PK}' => $id] )->find();
+		}
+	}
+
+	/**
+	 * 更新单个数据
+	 */
+	public function update( $data = null ) {
+		$this->create();
+
+		if ( empty( $data['{$PK}'] ) ) {
+			return $this->add( $data );
+		}else {
+			return $this->where( ['{$PK}' => $data['{$PK}']] )->save( $data );
+		}
+	}
+}

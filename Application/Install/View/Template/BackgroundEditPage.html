@@ -1,0 +1,29 @@
+<extend name="Public/base"/>
+
+<block name="style">
+{$TPCSS}
+</block>
+
+<block name="body">
+  <div class="main-title">
+    <h2>{$meta_title}</h2>
+  </div>
+  {$UPLOAD}
+  <form action="__SELF__" method="post" class="form-horizontal">
+    <input type="hidden" name="id" value="{$data.{$PK}}">{$BODY}
+    <div class="form-item">
+      <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+      <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+    </div>
+  </form>
+</block>
+
+<block name="script">
+{$TPSCRIPT}
+<script type="text/javascript">
+//导航高亮
+highlight_subnav('{:U("{$TABLE}/index")}');
+
+{$TPINIT}
+</script>
+</block>

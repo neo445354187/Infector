@@ -1,0 +1,114 @@
+<extend name="Public/base"/>
+<block name="style">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/datetimepicker/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/datetimepicker/css/datetimepicker_blue.css">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/datetimepicker/css/dropdown.css">
+    <style>
+.left {
+	float: left;
+	width: 66%
+}
+.right {
+	float: right;
+	width: 30%
+}
+.clear {
+	width: 100%;
+	clear: both
+}
+</style>
+</block>
+<block name="body">
+<script type="text/javascript" src="__STATIC__/jquery.upload.js"></script>
+<form action="__SELF__" method="post" class="form-horizontal">
+    <div class="left">
+        <div class="form-item">
+            <label class="item-label">标题</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="title" value="{$data.title}" required>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">摘要</label>
+            <div class="controls">
+                <label class="textarea">
+                    <textarea name="abstruct">{$data.abstruct}</textarea>
+                </label>
+            </div>
+        </div>
+        <div class="form-item" id="editor">
+            <label class="item-label">内容</label>
+            <div class="controls">
+                <label class="textarea">
+                    <textarea name="content">{$data.content}</textarea>
+                    {:hook('adminArticleEdit', ['name'=>'content','value'=>$data['content']])} </label>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="form-item">
+            <label class="item-label">分类</label>
+            <div class="controls">
+                <select name="type" id="type">
+                    <volist name="type_list" id="vo"> <option value="{$vo.id}" 
+                        <eq name="vo.id" value="$data.type">selected</eq>
+                        >{$vo.title_show}
+                        </option>
+                    </volist>
+                </select>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">首页封面 460*330</label>
+            <div class="controls">
+                <input type="file" id="cover">
+                <input type="hidden" name="cover" id="cover_val" value="{$data.cover}">
+                <div class="upload-img-box">
+                    <notempty name="data.cover">
+                        <div class="upload-pre-item"><img src="{$data.cover}" alt="preview"></div>
+                    </notempty>
+                </div>
+                {:hook('QuickUpld', ['id' => 'cover', 'return' => 'cover_val', 'type' => 'path'])} </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">地址 需加http://</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="url" value="{$data.url}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">发布时间</label>
+            <div class="controls">
+                <input type="text" class="text input-large timepicker" name="create_time" value="{$data.create_time|time_format}" >
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">立即发布</label>
+            <div class="controls">
+                <label><input type="radio" name="status" value="1" <eq name="data.status" value="1">checked</eq>>是</label>
+                <label><input type="radio" name="status" value="0" <neq name="data.status" value="1">checked</neq>>否</label>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="id" value="{$data.id}">
+    <div class="form-item clear">
+        <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+        <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+    </div>
+</form>
+</block>
+<block name="script"> 
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.min.js"></script> 
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.zh-CN.js"></script> 
+<script type="text/javascript">
+//导航高亮
+highlight_subnav("{:U('News/index')}");
+
+$(".timepicker").datetimepicker({
+    format:"yyyy-mm-dd",
+    minView:"2",
+    autoclose:true,
+    todayBtn:true
+});
+</script> 
+</block>
